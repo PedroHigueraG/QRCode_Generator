@@ -9,3 +9,11 @@ A simple web page to generate a QR code with the URL of a website.
 <p>
   <img src="assets/page1.png" />
 </p>
+- Enter the corresponding link and click in "Generate QR":
+<p>
+  <img src="assets/page2.png" />
+</p>
+- This is the final result:
+<p>
+  <img src="assets/page3.png" />
+</p>
