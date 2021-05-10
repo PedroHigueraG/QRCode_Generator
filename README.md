@@ -17,3 +17,4 @@ A simple web page to generate a QR code with the URL of a website.
 <p>
   <img src="assets/page3.png" />
 </p>
+- If you want download de QR code, click in "Download QR"
