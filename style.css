@@ -76,6 +76,23 @@ body{
     background-color:#FFFF ;
     color: #203A43;
 }
+.container .qr_download{
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #0094ce8f;
+    color: #FFFF;
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #0F2027;
+    transition: 0.5s;
+}
+.container .qr_download:hover{
+    transition: 0.5s;
+    background-color:#FFFF ;
+    color: #203A43;
+}
 .repo {
     padding: 10px;
     font-size: 1.2rem;
