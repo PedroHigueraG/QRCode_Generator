@@ -11,7 +11,24 @@ html{
     background: -webkit-linear-gradient(to top, #0F2027, #203A43,#2C5364 );  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #0F2027, #203A43, #2C5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+.repo {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    font-size: 1.2rem;
+    display: flex;
+}
+.repo .links{
+    color: #FFFF;
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 5px;
+}
+.repo .links:hover{
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
 .container{
     margin-top: 10%;
     display: flex;
