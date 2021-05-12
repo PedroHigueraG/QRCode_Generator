@@ -28,6 +28,20 @@ body{
     font-size: 2.5rem;
     color: #FFFF;
 }
+.container .links{
+    display: flex;
+}
+.container .links h2{
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.5s;
+}
+.container .links h2:hover{
+    cursor: pointer;
+    color: #FFFF;
+    font-size: 1.8rem;
+    transition: 0.5s;
+}
 .container .qr_code{
     width: 200px;
     height: 200px;
@@ -52,11 +66,66 @@ body{
     color: #FFFF;
     font-size: 1.5rem;
 }
-.container p{
+.container .qr_p{
     color: #FFFF;
     margin: 15px;
     font-size: 1.5rem;
     text-align: center;
+}
+.container .qr_wifi{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color:  #909EA3;
+    width: 200px;
+    box-shadow: 0px 0px 10px #0F2027;
+    outline: none;
+    color: #FFFF;
+    font-size: 1.5rem;
+    display: none;
+}
+.container .wifi_p{
+    color: #FFFF;
+    margin: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: none;
+}
+#wp_p{
+    color: #FFFF;
+    margin: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: none;
+}
+.container .number_div{
+    display: flex;
+    color: #FFFF;
+    font-size: 1.9rem;
+}
+#number_div{
+    display: none;
+}
+.number_div #indicativo{
+    width: 35px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color:  #9db9c4;
+    outline: none;
+    color: #FFFF;
+    font-size: 1.5rem;
+    margin-right: 3px;
+}
+.number_div #number_phone{
+    width:  130px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color:  #9db9c4;
+    outline: none;
+    color: #FFFF;
+    font-size: 1.5rem;
 }
 .container .qr_button{
     font-weight: bold;

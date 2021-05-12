@@ -14,11 +14,30 @@
     
     <div class="container">
         <h1 class="tittle">QR Code Generator</h1>
+        <div class="links">
+            <h2 id="url_mode">Url</h2>
+            <h2 id="wifi_mode">Wifi</h2>
+            <h2 id="wp_mode">Whatsapp</h2>
+        </div>
         <div class="qr_code" id="qr_code">
             <div class="qr_code_div" id="qrcode"></div>
         </div>
-        <p>Enter the URL to continue</p>
+        <p class="qr_p" id="url_p">Enter the URL to continue</p>
         <input class="qr_input" id="qr_input" type="text" placeholder="URL">
+        <p class="wifi_p" id="wifi_name">Name of network</p>
+        <input class="qr_wifi" id="name_network" type="text" placeholder="Name">
+        <p class="wifi_p" id="wifi_pass">Password</p>
+        <input class="qr_wifi" id="pass_network" type="text" placeholder="Password">
+        <p class="wifi_p" id="wifi_sec">Security</p>
+        <select name="Security" class="qr_wifi" id="security_network">
+            <option value="WPA">WPA</option>
+            <option value="WEP">WEP</option>
+        </select>
+        <p id="wp_p">Enter your country code and phone number</p>
+        <div class="number_div qr_wifi" id="number_div">
+            +<input type="text" name="" id="indicativo" placeholder="#" required>
+            <input type="text" id="number_phone" placeholder="12345" required>
+        </div>
         <button class="qr_button" id="qr_button">Generate QR</button>
         <button class="qr_download" id="qr_download">Download QR</button>
     </div>
