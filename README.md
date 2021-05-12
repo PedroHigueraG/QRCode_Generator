@@ -9,9 +9,21 @@ A simple web page to generate a QR code with the URL of a website.
 <p>
   <img src="assets/page1.png" />
 </p>
-- Enter the corresponding link and click in "Generate QR":
+- Select the mode to use
+<p>
+  <img src="assets/page4.png" />
+</p>
+- If you select URL mode. Enter the corresponding link and click in "Generate QR":
 <p>
   <img src="assets/page2.png" />
+</p>
+- If you select WIFI mode. Enter the name, password and securty type of your network and click in "Generate QR":
+<p>
+  <img src="assets/page5.png" />
+</p>
+- If you select Whatsapp mode. Enter the country code and your number and click in "Generate QR":
+<p>
+  <img src="assets/page6.png" />
 </p>
 - This is the final result:
 <p>
